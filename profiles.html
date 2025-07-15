@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <section id="navigation_bar">
+            <div class="logo">
+                <a href="index.html"><img src="Images/Logo/logo_white.png" alt="Solid-logo" width="80px" height="auto"></a>
+            </div>
+            <form action="#">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <i class='bx bx-search-alt-2' ></i>
+                </div>
+            </form>
+            <div class="prof_menu">
+                <div class="profiles">
+                    <div>
+                        <a href="What'sNew.html">What's New....?</a>
+                    </div>
+                    <div>
+                        <a href="profiles.html" class="active"><i class='bx bx-user'></i></a>
+                        <span>Profile</span>
+                    </div>
+                    <div>
+                        <a href="favourites.html"><i class='bx bx-heart'></i></a>
+                        <span>Favourites</span>
+                    </div>
+                    <div>
+                        <a href="cart.html"><i class='bx bx-cart-alt' ></i></a>
+                        <span>Cart</span>
+                    </div>
+                </div>
+                <div>
+                    <form action="login.html">
+                        <button class="index_btn">Login</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <section id="user_profile" class="common_padding">
+            <div class="user_profile_left">
+                <div>
+                    <h3>Hello User</h3>
+                </div>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="#">Your Orders</a>
+                    <a href="#">Buy Again</a>
+                    <a href="#">Your Account</a>
+                </div>
+                <div>
+                    <a href="#">Today Deals</a>
+                    <a href="#">Subscribe</a>
+                </div>
+                <div>
+                    <a href="#">Settings</a>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Privacy & Policy</a>
+                    <a href="#">Logout</a>
+                </div>
+              
+            </div>
+            <div class="user_profile_right">
+                <div class="user_image">
+                    <img src="Images/Profiles/dp3.png" alt="user profile" id="profile_pic">
+                    <label for="input_file" onclick="changepic()">Upload File</label>
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" id="input_file">
+                </div>
+                <div class="personal_info">
+                    <label for="name">Username:</label>
+                    <input type="text" id="name" value="username" class="editable" readonly>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" value="user@example.com" class="editable" readonly>
+                    <br>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" value="123 Street, City" class="editable" readonly>
+                    <br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" value="123-456-7890" class="editable" readonly>
+                    <br>
+                    <button id="editButton" onclick="enableEdit()">Edit Profile</button>
+                    <button id="saveButton" style="display: none;" onclick="saveChanges()">Save</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="Subscribe_section" class="common_margin">
+            <div>
+                <h4>Fear of Missing Out</h4>
+                <span>Get the latest deals, Updates & More</span>
+            </div>
+            <div>
+                <form action="">
+                    <input type="email" placeholder="Your Email..">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+            <div class="social">
+                <h4>Follow Us</h4>
+                <div class="social_media">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-pinterest' ></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section id="footer" class="common_padding common_margin">
+            <div class="details">
+                <div>
+                    <strong>Company</strong><br><br>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Careers</a></p>
+                    <p><a href="#">Affiliates</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </div>
+                <div>
+                    <strong>Shop</strong><br><br>
+                    <p><a href="#">Tshirts</a></p>
+                    <p><a href="#">Shirts</a></p>
+                    <p><a href="#">Hoodies</a></p>
+                    <p><a href="#">Pants</a></p>
+                    <p><a href="#">Shorts</a></p>
+                    <p><a href="#">Joggers</a></p>
+                </div>
+                <div>
+                    <strong>Help</strong><br><br>
+                    <p><a href="#">Customer Service</a></p>
+                    <p><a href="#">My Account</a></p>
+                    <p><a href="#">Find a Store</a></p>
+                    <p><a href="#">Legal & Privacy</a></p>
+                    <p><a href="#">Contact</a></p>
+                    <p><a href="#">Gift Card</a></p>
+                </div>
+                <div>
+                    <strong>My Account</strong><br><br>
+                    <p><a href="#">My Profile</a></p>
+                    <p><a href="#">My Orders</a></p>
+                    <p><a href="#">Favourites</a></p>
+                    <p><a href="#">Track your order</a></p>
+                </div>
+                <div>
+                    <strong>Contact Info</strong><br><br>
+                    <p><a href="tel:8838931538">+91 8838931538</a></p>
+                    <p><span>Monday To Sunday</span></p>
+                    <p><span>10:00 AM to 10:00 PM</span></p>
+                    <p><a href="mailto:hariprashath1409@gmail.com">@hariprashath1409@gmail.com</a></p>
+                    <p><span>Sivakasi,Tamilnadu</span></p>
+                </div>
+            </div>
+            <div class="features">
+               <div class="feature_details">
+                    <img src="Images/features/delivery.png" alt="free delivery" width="50px" height="auto">
+                   <div>
+                        <strong>Free Delivery</strong>
+                        <p> Free Shipping over $200 </p>
+                   </div>
+               </div>
+               <div class="feature_details">
+                    <img src="Images/features/parcel.png" alt="free return"  width="50px" height="auto">
+                    <div>
+                        <strong>Free Return</strong>
+                        <p> 5 days return policy </p>
+                    </div>
+               </div>
+               <div class="feature_details">
+                    <img src="Images/features/customer-support.png" alt="service"  width="50px" height="auto">
+                    <div>
+                        <strong>Customer-Support</strong>
+                        <p>24*7 Support</p>
+                    </div>
+               </div>
+               <div class="feature_details">
+                    <img src="Images/features/money-back.png" alt="guarantee"  width="50px" height="auto">
+                    <div>
+                        <strong>Money-Back Guarantee</strong>
+                        <p>Quality Checked by our Teams</p>
+                    </div>
+               </div>            
+            </div>
+            <div class="copyright_and_payment">
+                 <div class="payment_methods">
+                    <img src="Images/payment_methods/payment_methods.png" alt="payment mwthods" >
+                </div>
+                <div class="copyright">
+                    <span>Copyright &copy; 2024 Ragi Sreethaj Reddy - Solid_Ecommerce</span>
+                </div>
+               
+            </div>
+        </section>
+    </footer>
+
+    <script>
+       function enableEdit() {
+            var inputs = document.querySelectorAll(".editable");
+            var editButton = document.getElementById("editButton");
+            var saveButton = document.getElementById("saveButton");
+            
+            inputs.forEach(input => {
+                input.removeAttribute("readonly");
+            });
+            
+            editButton.style.display = "none";
+            saveButton.style.display = "block";
+        }
+
+        function saveChanges() {
+            var inputs = document.querySelectorAll(".editable");
+            var editButton = document.getElementById("editButton");
+            var saveButton = document.getElementById("saveButton");
+            
+            inputs.forEach(input => {
+                input.setAttribute("readonly", "true");
+            });
+            
+            editButton.style.display = "block";
+            saveButton.style.display = "none";
+            
+            alert("Changes saved!");
+        }
+
+
+        function changepic() {
+            var profilePic = document.getElementById("profile_pic");
+            var inputFile = document.getElementById("input_file");
+
+        inputFile.onchange = function(){
+            profilePic.src = URL.createObjectURL(inputFile.files[0]);
+        }
+        }
+        
+    </script>
+</body>
+</html>

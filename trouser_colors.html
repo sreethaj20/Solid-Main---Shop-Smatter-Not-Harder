@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <section id="navigation_bar">
+            <div class="logo">
+                <a href="index.html"><img src="Images/Logo/logo_white.png" alt="Solid-logo" width="80px" height="auto"></a>
+            </div>
+            <form action="#">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <i class='bx bx-search-alt-2' ></i>
+                </div>
+            </form>
+            <div class="prof_menu">
+                <div class="profiles">
+                    <div>
+                        <a href="What'sNew.html">What's New....?</a>
+                    </div>
+                    <div>
+                        <a href="profiles.html"><i class='bx bx-user'></i></a>
+                        <span>Profile</span>
+                    </div>
+                    <div>
+                        <a href="favourites.html"><i class='bx bx-heart'></i></a>
+                        <span>Favourites</span>
+                    </div>
+                    <div>
+                        <a href="cart.html"><i class='bx bx-cart-alt' ></i></a>
+                        <span>Cart</span>
+                    </div>
+                </div>
+                <div>
+                    <form action="login.html">
+                        <button class="index_btn">Login</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <section id="new_products" class="common_padding">
+            <div class="products_container">
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_black.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_black.jpeg')">
+                    <div class="des">
+                        <span>Black</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_brown.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_brown.jpeg')">
+                    <div class="des">
+                        <span>Brown</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_green.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_green.jpeg')">
+                    <div class="des">
+                        <span>Green</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_grey.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_grey.jpeg')">
+                    <div class="des">
+                        <span>Grey</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_mintBlue.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_mintBlue.jpeg')">
+                    <div class="des">
+                        <span>Mint Blue</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_mintGreen.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_mintGreen.jpeg')">
+                    <div class="des">
+                        <span>Mint Green</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_navyBlue.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_navyBlue.jpeg')">
+                    <div class="des">
+                        <span>Navy Blue</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_orange.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_orange.jpeg')">
+                    <div class="des">
+                        <span>Orange</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_purple.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_purple.jpeg')">
+                    <div class="des">
+                        <span>Purple</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>             
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_red.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_red.jpeg')">
+                    <div class="des">
+                        <span>Red</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>                                
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_yellow.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_yellow.jpeg')">
+                    <div class="des">
+                        <span>Sandal</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>                                
+                <div class="products">
+                    <img src="Images/Products/Shorts/shorts_white.jpeg" alt="Shorts" onclick="displayImage('Images/Products/Shorts/shorts_white.jpeg')"">
+                    <div class="des">
+                        <span>White</span>
+                        <div class="line"></div>
+                        <h4>Trouser</h4>
+                        <div id="product_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <h3>₹150.00 <del class="strike">&nbsp;&nbsp;&nbsp;₹200.00</del></h3>
+                    </div>
+                </div>                                
+            </div>
+        </section>
+
+        <section id="continue_shopping" class="common_padding">
+            <a href="index.html">Continue Shopping....</button></a>
+        </section>
+
+        <section id="Subscribe_section" class="common_margin">
+            <div>
+                <h4>Fear of Missing Out</h4>
+                <span>Get the latest deals, Updates & More</span>
+            </div>
+            <div>
+                <form action="">
+                    <input type="email" placeholder="Your Email..">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+            <div class="social">
+                <h4>Follow Us</h4>
+                <div class="social_media">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-pinterest' ></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section id="footer" class="common_padding common_margin">
+            <div class="details">
+                <div>
+                    <strong>Company</strong><br><br>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Careers</a></p>
+                    <p><a href="#">Affiliates</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </div>
+                <div>
+                    <strong>Shop</strong><br><br>
+                    <p><a href="#">Tshirts</a></p>
+                    <p><a href="#">Shirts</a></p>
+                    <p><a href="#">Hoodies</a></p>
+                    <p><a href="#">Pants</a></p>
+                    <p><a href="#">Shorts</a></p>
+                    <p><a href="#">Joggers</a></p>
+                </div>
+                <div>
+                    <strong>Help</strong><br><br>
+                    <p><a href="#">Customer Service</a></p>
+                    <p><a href="#">My Account</a></p>
+                    <p><a href="#">Find a Store</a></p>
+                    <p><a href="#">Legal & Privacy</a></p>
+                    <p><a href="#">Contact</a></p>
+                    <p><a href="#">Gift Card</a></p>
+                </div>
+                <div>
+                    <strong>My Account</strong><br><br>
+                    <p><a href="#">My Profile</a></p>
+                    <p><a href="#">My Orders</a></p>
+                    <p><a href="#">Favourites</a></p>
+                    <p><a href="#">Track your order</a></p>
+                </div>
+                <div>
+                    <strong>Contact Info</strong><br><br>
+                    <p><a href="tel:8838931538">+91 8838931538</a></p>
+                    <p><span>Monday To Sunday</span></p>
+                    <p><span>10:00 AM to 10:00 PM</span></p>
+                    <p><a href="mailto:hariprashath1409@gmail.com">@hariprashath1409@gmail.com</a></p>
+                    <p><span>Sivakasi,Tamilnadu</span></p>
+                </div>
+            </div>
+            <div class="features">
+               <div class="feature_details">
+                    <img src="Images/features/delivery.png" alt="free delivery" width="50px" height="auto">
+                   <div>
+                        <strong>Free Delivery</strong>
+                        <p> Free Shipping over ₹200 </p>
+                   </div>
+               </div>
+               <div class="feature_details">
+                    <img src="Images/features/parcel.png" alt="free return"  width="50px" height="auto">
+                    <div>
+                        <strong>Free Return</strong>
+                        <p> 5 days return policy </p>
+                    </div>
+               </div>
+               <div class="feature_details">
+                    <img src="Images/features/customer-support.png" alt="service"  width="50px" height="auto">
+                    <div>
+                        <strong>Customer-Support</strong>
+                        <p>24*7 Support</p>
+                    </div>
+               </div>
+               <div class="feature_details">
+                    <img src="Images/features/money-back.png" alt="guarantee"  width="50px" height="auto">
+                    <div>
+                        <strong>Money-Back Guarantee</strong>
+                        <p>Quality Checked by our Teams</p>
+                    </div>
+               </div>            
+            </div>
+            <div class="copyright_and_payment">
+                 <div class="payment_methods">
+                    <img src="Images/payment_methods/payment_methods.png" alt="payment mwthods" >
+                </div>
+                <div class="copyright">
+                    <span>Copyright &copy; 2024 Ragi Sreethaj Reddy - Solid_Ecommerce</span>
+                </div>
+               
+            </div>
+        </section>
+    </footer>
+    <script>
+        function displayImage(imageSrc) {
+            // Store the selected image source in localStorage
+            localStorage.setItem('selectedImage', imageSrc);
+
+            // Redirect to sub_tshirt.html
+            window.location.href = 'sub_shorts.html';
+        }
+    </script>
+</body>
+</html>
